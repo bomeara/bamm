@@ -27,6 +27,7 @@ std::string SpExEventDataWriter::eventParameters(BranchEvent* event)
     stringStream << specificEvent->getLamInit()  << ","
                  << specificEvent->getLamShift() << ","
                  << specificEvent->getMuInit()   << ","
-                 << specificEvent->getMuShift();
+                 << specificEvent->getMuShift()  << ","
+                 << specificEvent->getEventNode()->getEinit();
     return stringStream.str();
 }

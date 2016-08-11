@@ -25,7 +25,7 @@ private:
 
 inline std::string SpExEventDataWriter::specificHeader()
 {
-    return ",lambdainit,lambdashift,muinit,mushift";
+    return ",lambdainit,lambdashift,muinit,mushift,eprob";
 }
 
 
